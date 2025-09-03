@@ -1,0 +1,56 @@
+I can use all of the following commands even though I might not be able to use them to their whole extend.. I often look things up when I do not know how to use them.
+
+Linux:
+* cat <file or text>
+-> prints the content of the file or the text in the console
+
+* man <tool>
+-> opens the manual for a tool (control with 'h', 'j', 'k' and 'l')
+
+* whoami
+-> displays current username
+
+* id
+-> returns user identity
+
+* uname <options>
+-> information about the operating system
+
+* pwd
+-> current directory you are in
+
+* who
+-> currently logged in user
+
+* ls <options>
+-> lists a directories content (standard is the current directory)
+
+* cd <path>
+-> changes the directory to the path (if valid)
+
+* clear
+-> clears the terminal
+
+* touch <name>
+-> creates an empty file with name
+
+* mkdir <options> <name>
+-> creates a whole directory
+
+* tree <options> <name>
+-> Lists the content of a whole directory recursively
+
+* mv <options> <name>
+-> move or rename files or directories
+
+* which
+-> returns the path to a file or link
+
+* find
+-> searches for a file
+
+* locate
+-> returns the path
+
+* ssh
+-> login
