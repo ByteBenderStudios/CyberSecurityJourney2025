@@ -1,0 +1,6 @@
+This file is about random commands I have been using...
+
+locate *.bat    -> Locate paths to all .bat files
+locate *.bat -c  -> Count of all .bat files
+find /etc/ -name shadow  -> Finds all files in /etc/ named shadow
+find /etc/ -name shadow 2>/dev/null -> Same as above, but errors are not visible since they go into /dev/null
