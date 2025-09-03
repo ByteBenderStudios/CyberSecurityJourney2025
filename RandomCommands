@@ -4,3 +4,6 @@ locate *.bat    -> Locate paths to all .bat files
 locate *.bat -c  -> Count of all .bat files
 find /etc/ -name shadow  -> Finds all files in /etc/ named shadow
 find /etc/ -name shadow 2>/dev/null -> Same as above, but errors are not visible since they go into /dev/null
+find /etc/ -name shadow 2> stderr.txt 1> stdout.txt
+cat < stdout.txt
+find /etc/ -name passwd >> stdout.txt 2>/dev/null
