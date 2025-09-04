@@ -7,3 +7,5 @@ find /etc/ -name shadow 2>/dev/null -> Same as above, but errors are not visible
 find /etc/ -name shadow 2> stderr.txt 1> stdout.txt
 cat < stdout.txt
 find /etc/ -name passwd >> stdout.txt 2>/dev/null
+find -name *.log | wc -l        -> count the files
+find -name *.log | grep systemd | wc -l      -> difference is, path has to include systemd
