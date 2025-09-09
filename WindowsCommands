@@ -1,0 +1,17 @@
+
+cd <path>
+cls
+hostname
+whoami
+ipconfig <options>
+netstat
+net ?
+
+%windir% = windows folder
+lusrmgr.msc   -> Lokale Benutzer und Gruppen (Management)
+msconfig.exe -> Systemkonfigurationen
+UserAccountControlSetting.exe
+Compmgmt.msc -> Computerverwaltung
+msinfo32.exe -> Systeminformationen
+resmon.exe -> Resourcen Monitor
+Regedit <-> regedt32.exe   -> Windows Registry
