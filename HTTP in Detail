@@ -1,0 +1,9 @@
+HTTP = Hypertext Transfer Protocol -> typical port is 80
+HTTPS = Hypertext Transfer Protocol Secure -> typical port is 443
+
+Status COdes:
+100 - 199 = Information Response
+200 - 299 = Success
+300 - 399 = Redirection
+400 - 499 = Client Error
+500 - 599 = Server Error
