@@ -1,4 +1,8 @@
 "exact phrase" -> link has to include text with the exact phrase that is in quotes
 site: <url> -> only specific site.. for example  << site:youtube.com  >> will only include searches relative to the youtube.com url
+-> can also be used like this: site:.tv -> looks up all .tv sites
 - <word>   -> omit search results that contain a particular word or phrase.. for example << pyramids -tourism >> will only include searches for pyramids but NO tourism!
 filetype: <type>   -> will show you only links with the specific file.... example types are but not limited to: PDF, DOC, XLS, PPT and TXT
+inurl: <tpye>    -> has to include the text or type in url
+allintext: <text> -> has to be in website
+after: <date/year?> -> creation date
